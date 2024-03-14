@@ -1,2 +1,2 @@
-git pull
+get pull
 get push
