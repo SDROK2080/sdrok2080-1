@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- Include jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
@@ -93,8 +95,9 @@
         padding: 10px;
     }
 
-    .animated-text {
+    .animated-text{
         animation: slideRight 10s linear infinite;
+        text-align: rtl ;
     }
 
     h1, h2, h3, h4 {
@@ -112,7 +115,6 @@
         }
     }
 </style>
-
 <div class="animated-text-container">
     <div class="animated-text"><h1>Welcome To Our Website on Social Development & Research Information about Research Article, Case Study</h1></div>
     <div class="animated-text"><h2>Interviews, Seminars & Webinars, Social Media, News & Updates, Community Engagement</h2></div>
@@ -138,7 +140,6 @@
             padding: 0;
             background-color: #f1f1f1;
         }
-
         .slider {
             position: relative;
             width: 100%;
@@ -147,7 +148,6 @@
             overflow: hidden;
             border-radius: 8px;
         }
-
         .slides {
             display: flex;
             transition: transform 1s ease-in-out; /* Adjust the transition timing */
@@ -163,7 +163,6 @@
             height: auto;
             border-radius: 10px;
         }
-
         .prev, .next {
             position: absolute;
             top: 50%;
@@ -177,15 +176,12 @@
             border-radius: 50%;
             transition: background-color 0.3s;
         }
-
         .prev:hover, .next:hover {
             background-color: rgba(0, 0, 0, 0.8);
         }
-
         .prev {
             left: 10px;
         }
-
         .next {
             right: 10px;
         }
@@ -219,8 +215,7 @@
             <button onclick="openAcademicFieldTab()">Academic Field</button>
             <button onclick="openLifeScienceTab()">Life Science</button>
         </div>
-    
-        <div id="FooterSectionContent" class="dropdown-content">
+            <div id="FooterSectionContent" class="dropdown-content">
             <button onclick="openNavigationLinksTab()">Navigation Links</button>
             <button onclick="openCopywriteInformationTab()">Copywrite Information</button>
             <button onclick="openSocialMediaPolicyTab()">Social Media Policy</button>
@@ -246,7 +241,6 @@
 </div>
 <script>
     let currentSlide = 0;
-
     function showSlide(index) {
         const slides = document.querySelector('.slides');
         const slideWidth = document.querySelector('.slide').offsetWidth;
@@ -254,7 +248,6 @@
 
         slides.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
     }
-
     function prevSlide() {
         if (currentSlide > 0) {
             currentSlide--;
@@ -264,7 +257,6 @@
         }
         showSlide(currentSlide);
     }
-
     function nextSlide() {
         const slides = document.querySelectorAll('.slide');
         if (currentSlide < slides.length - 1) {
@@ -293,7 +285,6 @@
     </dl>
     <div class="animated-text-container">
         <div class="animated-text"><h3>Crafted by Bishnu Singh Rayamajhi, this revolutionary web software weaves together innovation and precision, ushering in a digital revolution into the discovery of a transformative new era.</h3></div>
-
 
         <!DOCTYPE html>
         <html lang="en">
@@ -423,7 +414,7 @@
                 <div id="myDIV">
                    IntroSDROK
                 </div></a>
-              
+            
     </ul>
     <script>
     let slideIndex = 0;
@@ -759,6 +750,8 @@ document.addEventListener('DOMContentLoaded', showSlides);
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Home Page</title>
 </head>
 <body>
@@ -814,6 +807,8 @@ document.addEventListener('DOMContentLoaded', showSlides);
 </body>
 </html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
     <style>
@@ -871,6 +866,8 @@ document.addEventListener('DOMContentLoaded', showSlides);
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         div{text-align: center;}
     </style>
@@ -1045,11 +1042,6 @@ document.addEventListener('DOMContentLoaded', showSlides);
         // Automatically change slide every 3 seconds
         setInterval(changeSlide, 4000);
     </script>
-<footer>
-    <p>&copy;<strong>2024 Our SDROK-Friendly Website. All rights reserved.</strong></p>
-</footer> 
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1081,18 +1073,25 @@ document.addEventListener('DOMContentLoaded', showSlides);
     <h2>Download File/Video</h2>
     <p>Click the links below to download the files/Video:</p>
     <ul>
-        <li><a href="https://docs.google.com/presentation/d/1cA1CrLrMsG9Xf2rhmD3c-W_UJnNAeW5E/edit#slide=id.p3">Download Word File</a></li>
-        <li><a href="https://www.youtube.com/watch?v=7ByPyzrC1Pk">Download Video</a></li>
+        <li><a href="https://docs.google.com/presentation/d/1pJT7rtr03KRvCeYOV-lU2RRI_4J7_CTw/edit#slide=id.p15">Download Word File</a></li>
     </ul>
 </body>
 </html>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yrWAQ7T_vwA?list=PLX-KmXTn6p4jfu3ZOaqsCVD6afq0ilYUn" frameborder="0" allowfullscreen></iframe>
-
+    <body>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yrWAQ7T_vwA?list=PLX-KmXTn6p4jfu3ZOaqsCVD6afq0ilYUn" frameborder="0" allowfullscreen></iframe><br>
+        <iframe src="https://live.ntv.org.np/#/" height="500" width="500"></iframe>
+</body>
+<footer>
+    <p>&copy;<strong>2024 Our SDROK-Friendly Website. All rights reserved.</strong></p>
+</footer>
 <body>
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Enter Your Suggestion...">
         <button onclick="search()">Send Suggestion</button>
     </div>
-    </body>
-
-
+</body>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+</html>
