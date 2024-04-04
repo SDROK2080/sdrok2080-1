@@ -870,8 +870,7 @@ document.addEventListener('DOMContentLoaded', showSlides);
   <link rel="stylesheet" href="styles0000.css">
   <title>File Manager</title>
 </head>
-
-   
+ 
     <div id="academicFieldSection" class="academic-field-section">
         <button onclick="openLink('https://www.bbsnotes.com/2023/03/06/tu-mbs-second-semester-syllabus-and-subjects/')">MBS-SyllabusTU</button>
         <button onclick="openLink('https://thepronotes.com/b-ed-syllabus-tribhuwan-university-tu/')">B.Ed.SyllabusTU</button>
@@ -1067,16 +1066,18 @@ document.addEventListener('DOMContentLoaded', showSlides);
         <br><iframe src="https://live.ntv.org.np/#/" height="500" width="500"></iframe>
 </body>    
 <footer>
-<body>
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Enter Your Suggestion...">
-        <button onclick="search()">Send Suggestion</button>
-    </div>
-</body>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-</html>
-<span style="color: black;">© 2023 Copyright @</span><a class="link text-white px-0.5" style="color: black;" href="/">SDROK2080</a></footer>
-
+    <body>
+        <br><div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter Your Suggestion...">
+            <button onclick="sendSuggestion()">Send Suggestion</button>
+        </div>
+        <br><span style="color: black;">© 2023 Copyright @</span><a class="link text-white px-0.5" style="color: black;" href="/">SDROK2080</a></footer>
+        <script>
+            function sendSuggestion() {
+                alert("Your suggestion is gratly valued, Thank You!!!");
+                document.getElementById("searchInput").value = ""; // Clear input field
+            }
+        </script>
+    </body>    
+</footer/
+    
